@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    display: block;
+}
+
+.container1 img {
+    width: 380px;
+    -webkit-box-reflect: right 2px linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0));
+}
+
+.container2 {
+    margin-top: 50px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 img {
+    width: 380px;
+    transform-origin: center;
+    transform: perspective(500px) rotateY(10deg);
+    -webkit-box-reflect: below 2px linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0));
+}
